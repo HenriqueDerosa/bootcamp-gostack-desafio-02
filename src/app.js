@@ -3,20 +3,20 @@ import express from "express";
 import router from "./routes";
 
 class App {
-  constructor() {
-    this.server = express();
+    constructor() {
+        this.server = express();
 
-    this.middlewares();
-    this.routes();
-  }
+        this.middlewares();
+        this.routes();
+    }
 
-  middlewares() {
-    this.server.use(express.json());
-  }
+    middlewares() {
+        this.server.use(express.json());
+    }
 
-  routes() {
-    this.server.use(router);
-  }
+    routes() {
+        this.server.use(router);
+    }
 }
 
 export default new App().server;
