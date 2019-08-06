@@ -1,7 +1,8 @@
-import express from "express";
+import express from 'express';
 
-import router from "./routes";
+import router from './routes';
 
+import './database';
 class App {
     constructor() {
         this.server = express();
