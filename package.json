@@ -5,7 +5,7 @@
         "dev": "nodemon src/server.js"
     },
     "main": "src/server.js",
-    "repository": "https://github.com/henriquederosa/backend-meetapp.git",
+    "repository": "https://github.com/henriquederosa/bootcamp-gostack-desafio-02.git",
     "author": "henriquederosa <contato.h@gmail.com>",
     "license": "MIT",
     "dependencies": {
